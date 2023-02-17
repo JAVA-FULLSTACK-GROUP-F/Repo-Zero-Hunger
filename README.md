@@ -1,4 +1,4 @@
-#Thought Process-thoughts on how this group-project should be planned & developed
+# Thought Process-thoughts on how this group-project should be planned & developed
 0) Analyse the topic-Zero Hunger, including the meaning & purposes behind Zero Hunger.
 1) Select a title 
 2) Analyse the title including how zero hunger can be solved through it. 
@@ -8,14 +8,14 @@
 6) Check & confirm how the elements linked together, build logical-algorithm through it.
 7) Determine what software features to be used.
 8) Determine how the group collaborate
- # 8A) Determine the elements/variables types and names
- # 8B) determine the functions/methods to be added
- # 8C) determine how to implement security and plan to handle crash/software errors
- # 8D) determine how to add comment/documentation
- # 8D1) For example, sysout.print the current path at every beginning of a method/class. So that people easy to know where the program stop Like sysout ("pubVC Main.(extend by) pubStrC Eater.M buyOnline"); //pub=public; V=void; C=class; M=method 
- # 8D2) Put explanations about the flow of the functions
+ ### 8A) Determine the elements/variables types and names
+ ### 8B) determine the functions/methods to be added
+ ### 8C) determine how to implement security and plan to handle crash/software errors
+ ### 8D) determine how to add comment/documentation
+ ### 8D1) For example, sysout.print the current path at every beginning of a method/class. So that people easy to know where the program stop Like sysout ("pubVC Main.(extend by) pubStrC Eater.M buyOnline"); //pub=public; V=void; C=class; M=method 
+ ### 8D2) Put explanations about the flow of the functions
 9) Begin to setup files and codings & website, test running...
- # 9A) Original files/folders should be always kept.
+ ### 9A) Original files/folders should be always kept.
 X) Merge the codings/files of project. Then convert it to Android App
 X1) Prepare for presentation if somebody dont need to code/do website setup
 
