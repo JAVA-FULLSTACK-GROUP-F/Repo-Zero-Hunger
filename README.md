@@ -52,7 +52,7 @@ These food materials can be obtained from a variety of sources, including farms,
 # METHODS TO HARVEST  METHODS TO HARVEST  METHODS TO HARVEST  METHODS TO HARVEST  METHODS TO HARVEST
 The methods used to harvest food materials depend on the type of food and its origin. 
 Here are some common ways food materials are harvested:
-Fruits and Vegetables: 
+## Fruits and Vegetables: 
 Many fruits and vegetables are harvested by (hand), 
 often with the help of tools such as (knives, scissors, and clippers.) 
 Some crops, such as strawberries, are harvested using special machines that pick the fruit (without damaging it).
@@ -118,7 +118,7 @@ providing energy and nourishment.
  */
 
  /*
-# GPT:   (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C) (C)
+# GPT:   (C)
 how to ensure food safety and quality through 
 automated tracking and monitoring of food production and distribution processes.	
 ## 1)CCPs, (hazard is identified and controlled before product is shipped)
