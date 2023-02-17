@@ -25,9 +25,9 @@
 
 # Personal understanding:
 (definition: every people able to have edible food)	
- * definition of edible food: things that can be eaten, not poisoning, as clean as possible					
-Food supplier: party that get the first-hand/unprocessed food material 
-End-users: party that eat the food 
+#### definition of edible food: things that can be eaten, not poisoning, as clean as possible					
+#### Food supplier: party that get the first-hand/unprocessed food material 
+#### End-users: party that eat the food 
 
 # TYPES OF FOOD   TYPES OF FOOD   TYPES OF FOOD   TYPES OF FOOD   TYPES OF FOOD   TYPES OF FOOD   TYPES OF FOOD
 /*from GPT:
