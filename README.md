@@ -1,3 +1,5 @@
+# Nutritional Monitoring and Tracking System: A software that tracks the nutritional value of food and provides real-time analysis to ensure that people are receiving the appropriate amount of nutrients.
+
 # Thought Process-thoughts on how this group-project should be planned & developed
 ## 0) Analyse the topic-Zero Hunger, including the meaning & purposes behind Zero Hunger.
 ## 1) Select a title 
