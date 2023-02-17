@@ -1,6 +1,6 @@
 # Nutritional Monitoring and Tracking System: A software that tracks the nutritional value of food and provides real-time analysis to ensure that people are receiving the appropriate amount of nutrients.
 
-# appropriate amount of nutrients for always hungry people difficult to get food
+# HOW always hungry people difficult to get food ABLE TO GET appropriate amount of nutrients
 ## Eat small, frequent meals: 
 Instead of relying on three large meals per day, try to eat small, nutrient-dense meals more frequently throughout the day. This can help keep your blood sugar levels stable and prevent excessive hunger.
 
