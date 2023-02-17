@@ -1,15 +1,20 @@
 # Nutritional Monitoring and Tracking System: A software that tracks the nutritional value of food and provides real-time analysis to ensure that people are receiving the appropriate amount of nutrients.
 
 # appropriate amount of nutrients for always hungry people difficult to get food
-## Eat small, frequent meals: Instead of relying on three large meals per day, try to eat small, nutrient-dense meals more frequently throughout the day. This can help keep your blood sugar levels stable and prevent excessive hunger.
+## Eat small, frequent meals: 
+Instead of relying on three large meals per day, try to eat small, nutrient-dense meals more frequently throughout the day. This can help keep your blood sugar levels stable and prevent excessive hunger.
 
-## Choose nutrient-dense foods: When you do have access to food, choose nutrient-dense foods that are high in vitamins, minerals, and other essential nutrients. These include fruits, vegetables, whole grains, lean protein sources, and healthy fats.
+## Choose nutrient-dense foods: 
+When you do have access to food, choose nutrient-dense foods that are high in vitamins, minerals, and other essential nutrients. These include fruits, vegetables, whole grains, lean protein sources, and healthy fats.
 
-## Include a variety of foods: Eating a variety of different foods can help ensure that you are getting all of the nutrients that your body needs. If you have limited access to food, try to include a mix of different food groups in your meals to maximize your nutrient intake.
+## Include a variety of foods: 
+Eating a variety of different foods can help ensure that you are getting all of the nutrients that your body needs. If you have limited access to food, try to include a mix of different food groups in your meals to maximize your nutrient intake.
 
-## Consider supplements: If you are unable to obtain enough nutrients through your diet, you may want to consider taking supplements. A multivitamin or other targeted supplements can help ensure that you are getting the appropriate amount of nutrients.
+## Consider supplements: 
+If you are unable to obtain enough nutrients through your diet, you may want to consider taking supplements. A multivitamin or other targeted supplements can help ensure that you are getting the appropriate amount of nutrients.
 
-## Seek assistance: If you are struggling to get enough food, there may be resources available to help. Local food banks, community organizations, and government programs may be able to provide assistance with food access.
+## Seek assistance: 
+If you are struggling to get enough food, there may be resources available to help. Local food banks, community organizations, and government programs may be able to provide assistance with food access.
 
 # Thought Process-thoughts on how this group-project should be planned & developed
 ## 0) Analyse the topic-Zero Hunger, including the meaning & purposes behind Zero Hunger.
