@@ -6,7 +6,7 @@
 ## 4) Present to group on how frontend should be looked like.
 ## 5) Analyse the elements/objects that should be included, then build checklist about that
 ## 6) Check & confirm how the elements linked together, build logical-algorithm through it.
-#  Beware that frontend (user interface) and backend (database queries?) needs to be synchronized. Hence needs to design backend(database system)
+###  Beware that frontend (user interface) and backend (database queries?) needs to be synchronized. Hence needs to design backend(database system)
 ## 7) Determine what software features to be used.
 ## 8) Determine how the group collaborate
  ### 8A) Determine the elements/variables types and names
