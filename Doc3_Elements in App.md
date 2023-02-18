@@ -16,10 +16,14 @@
 ##  Variables=  
 * Meals today (Raw food types and amount)
 **  Ask users what they eat today.
-**  Ask users their drinking habit
-**
+
 * Age 
 * Medical conditions
 * Lifestyle (how often you exercise)
+**  ask how often and what beverages they drink
+**  ask how often they exercise
+**  ask how they exercise/ do alot heavy works
+**  
+
 * Nutrient interactions
 * Cooking method
