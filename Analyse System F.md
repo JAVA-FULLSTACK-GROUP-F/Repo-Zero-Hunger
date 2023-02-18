@@ -48,8 +48,8 @@ Some nutrient tracking tools may have limitations or inaccuracies
 * 7)Changes in food production: 
 new [ingredients or production methods], can impact the accuracy of nutrient tracking.
 
-# Summarization by ChatpGPT
-Several elements affect the intake of nutrients, including 
+# Summarization by ChatpGPT  
+Several elements affect the intake of nutrients, including     
 1)Food availability and affordability.  
 2)Preferences  
 3)Age and life stage.  
