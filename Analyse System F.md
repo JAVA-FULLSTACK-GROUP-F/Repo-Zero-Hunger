@@ -50,8 +50,8 @@ new [ingredients or production methods], can impact the accuracy of nutrient tra
 
 # Summarization by ChatpGPT
 Several elements affect the intake of nutrients, including 
-* 1)Food availability and affordability.  
-* 2)Preferences  
+1)Food availability and affordability.  
+2)Preferences  
 3)Age and life stage.  
 4)Medical conditions and medications.  
 5)Lifestyle factors.  
