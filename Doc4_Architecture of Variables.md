@@ -32,8 +32,15 @@ Display:
 *	P1:(First time open):	Nice to meet you!(then Next Line= NL) I'm Maria the app assistant	(then Next page= NP)	
 **	Make user [tap] the screen to continue [to next page]. For example:	a part of screen [lights up repetitively]. 
 *	P2:Maria hopes to ensure your healthiness as accurate as possible (NL) So Maria prepared this section to ensure that Maria understand more about your daily nutrients intake (NP)	 
-*	P3: You just need to do ONCE! You may UPDATE this by clicking THIS... (enter instruction/skip instruction)
-*	P4:	(User enter information, app search the database/internet to obtain the nutriton value)
+*	P3: You just need to do ONCE! You may UPDATE this by clicking THIS... (enter instruction/skip instruction)  
+*	P4:	(User enter information, app search the database/internet to obtain the nutriton value) 
+  
+## Section about cooking's method  (tag: QACM ) 
+There are different types of cooking method for same raw food.  
+  For example: Chicken can be steamed, grilled, baked.... 
+So, the food itself can be categorized as:  
+1) Cooking style: grill, steam, bake  
+2) Raw main ingredient:chicken, insects, cow  
+3) Portion: 1, 1/2, 1/4 of every dish/plate/bowl
+4) Other: User's clarification
 
-## Section about cooking's method  (tag: QACM )
-### 
