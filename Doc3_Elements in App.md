@@ -29,17 +29,20 @@ People with higher levels of physical activity typically need more calories and 
 genetic factors affect nutrient absorption, metabolism, or appetite. 
 For example, people with certain gene variations may be more prone to nutrient deficiencies or have a higher risk of developing conditions like obesity or diabetes.  
 
-##  Variables=  
-* Meals today (Raw food types and amount)
-**  Ask users what they eat today.
-* Medical conditions and medications,Age and life stage.  
-**  Age, weight, height, 
+Variables in android app about factors affect nutrients intake
+##  Variables= (must/optional) + (update oftenly/weekly)
+* Meals today & Cooking method (Raw food types and amount) & Nutrient interactions 
+**  Ask users how they prepare each food before they cook  
+**  Ask users what they eat today (portion/how they cook).  
 
-* Lifestyle (how often you exercise)
-**  ask how often and what beverages they drink
-**  ask how often they exercise
-**  ask how and how often they exercise/ do heavy works
-**  
+* Medical conditions and medications,Age and life stage.    
+**  Age, weight, height (short/normal/tall/cm/ft), body physique (little/standard/heavily/very----fat/lean/muscular)  
+**  Genetic condition (optional)  
 
-* Nutrient interactions
-* Cooking method
+* Lifestyle (how often you exercise)  
+**  ask how often and what beverages they drink 
+**  ask how often they exercise 
+**  ask how and how often they exercise/ do heavy physical activity 
+**  ask do they cannot sleep oftenly
+
+
