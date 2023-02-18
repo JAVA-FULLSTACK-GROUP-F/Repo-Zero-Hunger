@@ -2,9 +2,9 @@
 
 ## Why/how [tracking food' nutritional value] & [analyse real-time] can [solve hunger problem/take enough nutrition?] 
 1)  By tracking, we know types and amount of nutrients every people take. 
-2)  So, we have data about that. 
-3)  So, if somebody dont take enough nutrients, we know. 
-4)  So, can take actions to help [every one of them] to take enough nutritions. 
+3)  So, we have data about that. 
+4)  So, if somebody dont take enough nutrients, we know. 
+5)  So, can take actions to help [every one of them] to take enough nutritions. 
 
 ##  What is [take enough nutrients], especially for [people who are always hungry and have difficulty getting enough food]?
 Consuming the right balance of essential [vitamins, minerals, and other nutrients] to [support] good health and [meet basic nutritional needs], despite limited access to food.
@@ -23,29 +23,29 @@ For example, some antibiotics can interfere with the absorption of certain vitam
 Alcohol and drug use can interfere with nutrient absorption, while smoking can increase the body's need for certain vitamins and minerals. Stress can also impact nutrient absorption and utilization.
 
 ##  What affects the [amount] of nutrition of a meal
-### Food selection
-### Food preparation:
+* 1)Food selection
+* 2)Food preparation:
 Overcooking or boiling vegetables, for example, can result in nutrient loss. To preserve the nutrient content of foods: steaming, roasting, or grilling.
-### Portion sizes: 
-### Dietary restrictions or preferences: 
+* 3)Portion sizes  
+* 4)Dietary restrictions or preferences: 
 such as a vegetarian or gluten-free diet intaker, can impact the nutrient content of a meal.
-### Nutrient interactions: 
+* 5)Nutrient interactions: 
 For example, consuming vitamin C with iron-rich foods can enhance the absorption of iron.
-### Food combinations: 
+* 6)Food combinations: 
 For example, combining beans and rice can create a complete protein, while pairing vitamin C-rich foods with iron-rich foods can enhance iron absorption.
 
 ##  What affects the [tracking] of food nutrients value?
-### Accuracy of food data
-### Variability in food composition: 
+* 4)Accuracy of food data
+* 4)Variability in food composition: 
 [Growing conditions], [processing], and [cooking methods]. This variability can impact the accuracy of nutrient tracking.
-### Portion sizes
-### User error: 
+* 1)Portion sizes
+* 2)User error: 
 User [forgetting] to record certain foods or misreading nutrition labels.
-### Technology limitations: 
+* 3)Technology limitations: 
 Some nutrient tracking tools may have limitations or inaccuracies
-### Cultural and regional differences: 
+* 4)Cultural and regional differences: 
 [have different food preferences and dietary patterns]
-### Changes in food production: 
+* 5)Changes in food production: 
 new [ingredients or production methods], can impact the accuracy of nutrient tracking.
 
 # Summarization by ChatpGPT
