@@ -39,10 +39,10 @@ Variables in android app about factors affect nutrients intake
 **  Age, weight, height (short/normal/tall/cm/ft), body physique (little/standard/heavily/very----fat/lean/muscular)  
 **  Genetic condition (optional)  
 
-* Lifestyle (how often you exercise)  
-**  ask how often and what beverages they drink 
-**  ask how often they exercise 
-**  ask how and how often they exercise/ do heavy physical activity 
-**  ask do they cannot sleep oftenly
+* Lifestyle (how often you exercise)    
+**  ask how often and what beverages they drink  
+**  ask how often they exercise  
+**  ask how and how often they exercise/ do heavy physical activity  
+**  ask do they cannot sleep oftenly  
 
 
