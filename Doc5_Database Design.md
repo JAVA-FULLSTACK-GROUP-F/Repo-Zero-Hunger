@@ -32,73 +32,73 @@ Doc5_Database Design.md:
 | created_at | datetime | Timestamp of when the user's account was created |  
 | updated_at | datetime | Timestamp of when the user's account was last updated |  
 
-# Meals Table (MT)
-| Column Name | Data Type | Description |
-| meal_id | int | Unique identifier for the meal |
-| user_id | int | Foreign key referencing the user who consumed the meal |
-| date | date | Date when the meal was consumed |
-| total_calories | float | Total calories of the meal |
-| total_fat | float | Total fat of the meal |
-| total_protein | float | Total protein of the meal |
-| total_carbohydrates | float | Total carbohydrates of the meal |
-| created_at | datetime | Timestamp of when the meal was added |
-| updated_at | datetime | Timestamp of when the meal was last updated |
-  
-# Meal Details Table (MDT)  
+# Meals Table (MT)   
 | Column Name | Data Type | Description |  
-| meal_detail_id | int | Unique identifier for the meal detail |  
-| meal_id | int | Foreign key referencing the meal the detail belongs to |  
-| food_id | int | Foreign key referencing the food consumed in the meal |  
-| serving_size | float | The serving size of the food consumed in the meal |  
-| calories | float | Calories of the food consumed in the meal |  
-| fat | float | Fat of the food consumed in the meal |  
-| protein | float | Protein of the food consumed in the meal |  
-| carbohydrates | float | Carbohydrates of the food consumed in the meal |  
-| created_at | datetime | Timestamp of when the meal detail was added |  
-| updated_at | datetime | Timestamp of when the meal detail was last updated |	  
-
-# Meal Type Details Table (MTDT)
-| Column Name | Data Type | Description |
-| meal_type_id | int | Foreign key referencing the meal type |
-| allergens | text | A comma-separated list of common allergens contained in the meal type, such as "milk, eggs, soy, wheat, nuts, etc." |
-| calories | integer | The number of calories in the meal type |
-| price | decimal | The price of the meal type in the local currency |
-| created_at | datetime | Timestamp of when the meal type was added |
-| updated_at | datetime | Timestamp of when the meal type was last updated |	
-
+| meal_id | int | Unique identifier for the meal |   
+| user_id | int | Foreign key referencing the user who consumed the meal |  
+| date | date | Date when the meal was consumed |  
+| total_calories | float | Total calories of the meal |  
+| total_fat | float | Total fat of the meal |  
+| total_protein | float | Total protein of the meal |  
+| total_carbohydrates | float | Total carbohydrates of the meal |  
+| created_at | datetime | Timestamp of when the meal was added |  
+| updated_at | datetime | Timestamp of when the meal was last updated |  
+    
+# Meal Details Table (MDT)    
+| Column Name | Data Type | Description |    
+| meal_detail_id | int | Unique identifier for the meal detail |    
+| meal_id | int | Foreign key referencing the meal the detail belongs to |    
+| food_id | int | Foreign key referencing the food consumed in the meal |    
+| serving_size | float | The serving size of the food consumed in the meal |    
+| calories | float | Calories of the food consumed in the meal |    
+| fat | float | Fat of the food consumed in the meal |    
+| protein | float | Protein of the food consumed in the meal |    
+| carbohydrates | float | Carbohydrates of the food consumed in the meal |    
+| created_at | datetime | Timestamp of when the meal detail was added |    
+| updated_at | datetime | Timestamp of when the meal detail was last updated |	    
+ 
+# Meal Type Details Table (MTDT)    
+| Column Name | Data Type | Description |   
+| meal_type_id | int | Foreign key referencing the meal type |  
+| allergens | text | A comma-separated list of common allergens contained in the meal type, such as "milk, eggs, soy, wheat, nuts, etc." |  
+| calories | integer | The number of calories in the meal type |  
+| price | decimal | The price of the meal type in the local currency |  
+| created_at | datetime | Timestamp of when the meal type was added |  
+| updated_at | datetime | Timestamp of when the meal type was last updated |	  
+  
          
-Note: The created_at and updated_at columns are commonly used in database systems to keep track of when a record was created and last updated. They can be useful for auditing and troubleshooting purposes.         
+Note: The created_at and updated_at columns are commonly used in database systems to keep track of when a record was created and last updated. They can be useful for auditing and troubleshooting purposes.          
 
-# Supplements Table (ST)
-| Column Name | Data Type | Description |
-| supplement_id | int | Unique identifier for the supplement |
-| user_id | int | Foreign key referencing the user who takes the supplement |
-| supplement_name | varchar(255) | Name of the supplement |
-| dosage | float | Dosage of the supplement |
-| frequency | varchar(20) | Frequency of use (e.g. daily, weekly) |
-
-# Recipes Table (RT)
-| Column Name | Data Type | Description |
-| recipe_id | int | Unique identifier for the recipe |
-| user_id | int | Foreign key referencing the user who created the recipe |
-| recipe_name | varchar(255) | Name of the recipe |
-| ingredients | text | Ingredients of the recipe |
-| instructions | text | Instructions for making the recipe |
+# Supplements Table (ST)  
+| Column Name | Data Type | Description |  
+| supplement_id | int | Unique identifier for the supplement |  
+| user_id | int | Foreign key referencing the user who takes the supplement |  
+| supplement_name | varchar(255) | Name of the supplement |  
+| dosage | float | Dosage of the supplement |  
+| frequency | varchar(20) | Frequency of use (e.g. daily, weekly) |  
+  
+# Recipes Table (RT)  
+| Column Name | Data Type | Description |  
+| recipe_id | int | Unique identifier for the recipe |  
+| user_id | int | Foreign key referencing the user who created the recipe |  
+| recipe_name | varchar(255) | Name of the recipe |  
+| ingredients | text | Ingredients of the recipe |  
+| instructions | text | Instructions for making the recipe |  
 | total_calories | float | Total calories of the recipe |
-| total_fat | float | Total fat of the recipe |
-| total_protein | float | Total protein of the recipe |
-| total_carbohydrates | float | Total carbohydrates of the recipe |
+| total_fat | float | Total fat of the recipe |    
+| total_protein | float | Total protein of the recipe |  
+| total_carbohydrates | float | Total carbohydrates of the recipe |  
 
-# Diary Table (DT)
-| Column Name | Data Type | Description |
-| diary_id | int | Unique identifier for the diary entry |
-| user_id | int | Foreign key referencing the user who made the entry |
-| date | date | Date of the diary entry |
-| meal_entries | text | Entries for meals consumed during the day |
-| activity_entries | text | Entries for activities performed during the day |
-| supplement_entries | text | Entries for supplements taken during the day |
-| notes | text | Additional notes for the day |
-
+# Diary Table (DT)  
+| Column Name | Data Type | Description |  
+| diary_id | int | Unique identifier for the diary entry |  
+| user_id | int | Foreign key referencing the user who made the entry |  
+| date | date | Date of the diary entry |  
+| meal_entries | text | Entries for meals consumed during the day |  
+| activity_entries | text | Entries for activities performed during the day |  
+| supplement_entries | text | Entries for supplements taken during the day |  
+| notes | text | Additional notes for the day |  
+   
 # Activity Table (AT)
 +---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+
 | Column Name   | Data Type   | Description          |                      |                       |                |                   |
