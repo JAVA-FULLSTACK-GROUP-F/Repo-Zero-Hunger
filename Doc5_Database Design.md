@@ -99,70 +99,70 @@ Note: The created_at and updated_at columns are commonly used in database system
 | supplement_entries | text | Entries for supplements taken during the day |  
 | notes | text | Additional notes for the day |  
    
-# Activity Table (AT)
-+---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+
-| Column Name   | Data Type   | Description          |                      |                       |                |                   |
-+---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+
-| activity_id   | int         | Unique identifier    | for the activity      |                       |                |                   |
-|               |             |                      |                       |                       |                |                   |
-| user_id       | int         | Foreign key          | referencing the user   | who performed the      | activity       |                   |
-|               |             |                      |                       |                       |                |                   |
-| activity_name | varchar(255)| Name of the activity |                       |                       |                |                   |
-|               |             |                      |                       |                       |                |                   |
-| date          | date        | Date when the        | activity was performed |                       |                |                   |
-|               |             |                      |                       |                       |                |                   |
-| time          | time        | Time when the        | activity was performed |                       |                |                   |
-|               |             |                      |                       |                       |                |                   |
-| duration      | float       | Duration of the      | activity in minutes    |                       |                |                   |
-|               |             |                      |                       |                       |                |                   |
-| calories_burned| float      | Calories burned      | during the activity    |                       |                |                   |
-+---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+
-
-# Goals Table (GT)	
-+---------------+-------------+---------------------+---------------------+-------------------+---------------------+
-| Column Name   | Data Type   | Description         |                     |                   |                     |
-+---------------+-------------+---------------------+---------------------+-------------------+---------------------+
-| goal_id       | int         | Unique identifier   | for the goal         |                   |                     |
+# Activity Table (AT)  
++---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+  
+| Column Name   | Data Type   | Description          |                      |                       |                |                   |  
++---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+  
+| activity_id   | int         | Unique identifier    | for the activity      |                       |                |                   |     
+|               |             |                      |                       |                       |                |                   |    
+| user_id       | int         | Foreign key          | referencing the user   | who performed the      | activity       |                   |  
+|               |             |                      |                       |                       |                |                   |  
+| activity_name | varchar(255)| Name of the activity |                       |                       |                |                   |  
+|               |             |                      |                       |                       |                |                   |  
+| date          | date        | Date when the        | activity was performed |                       |                |                   |  
+|               |             |                      |                       |                       |                |                   |  
+| time          | time        | Time when the        | activity was performed |                       |                |                   |  
+|               |             |                      |                       |                       |                |                   |  
+| duration      | float       | Duration of the      | activity in minutes    |                       |                |                   |  
+|               |             |                      |                       |                       |                |                   |  
+| calories_burned| float      | Calories burned      | during the activity    |                       |                |                   |  
++---------------+-------------+----------------------+-----------------------+-----------------------+----------------+-------------------+  
+  
+# Goals Table (GT)	  
++---------------+-------------+---------------------+---------------------+-------------------+---------------------+  
+| Column Name   | Data Type   | Description         |                     |                   |                     |  
++---------------+-------------+---------------------+---------------------+-------------------+---------------------+   
+| goal_id       | int         | Unique identifier   | for the goal         |                   |                     |  
+|               |             |                     |                     |                   |                     |  
+| user_id       | int         | Foreign key         | referencing the user | who set the goal   |                     |  
+|               |             |                     |                     |                   |                     |  
+| goal_type     | varchar(255)| Type of the goal     | (e.g. weight loss,   | muscle gain)       |                     |  
 |               |             |                     |                     |                   |                     |
-| user_id       | int         | Foreign key         | referencing the user | who set the goal   |                     |
+| start_date    | date        | Start date of the    | goal                |                     |                     |  
 |               |             |                     |                     |                   |                     |
-| goal_type     | varchar(255)| Type of the goal     | (e.g. weight loss,   | muscle gain)       |                     |
-|               |             |                     |                     |                   |                     |
-| start_date    | date        | Start date of the    | goal                |                     |                     |
-|               |             |                     |                     |                   |                     |
-| target_date   | date        | Target date to       | achieve the goal     |                     |                     |
-|               |             |                     |                     |                   |                     |
-| target_value  | float       | Target value for the | goal                |                     |                     |
-+---------------+-------------+---------------------+---------------------+-------------------+---------------------+
-
-# Nutrients Table (NT)
-+--------------+--------------+------------------------------------+---------------+---------------------+
-| Column Name  |  Data Type   |            Description             | Column Length |     Constraints     |
-+--------------+--------------+------------------------------------+---------------+---------------------+
-| nutrient_id  |     int      | Unique identifier for the nutrient |       -       |    Primary Key      |
-| food_id      |     int      | Foreign key referencing the food   |       -       |  References FT (id) |
-| nutrient_name| varchar(255) | Name of the nutrient               |      255      |                     |
-| serving_size |    float     | Serving size of the food in grams  |       -       |                     |
-| amount_per_serving | float | Amount of the nutrient per serving |       -       |                     |
-+--------------+--------------+------------------------------------+---------------+---------------------+
-
-# same_meal_members Table (SM)                   
+| target_date   | date        | Target date to       | achieve the goal     |                     |                     |  
+|               |             |                     |                     |                   |                     |  
+| target_value  | float       | Target value for the | goal                |                     |                     |  
++---------------+-------------+---------------------+---------------------+-------------------+---------------------+  
+  
+# Nutrients Table (NT)  
++--------------+--------------+------------------------------------+---------------+---------------------+  
+| Column Name  |  Data Type   |            Description             | Column Length |     Constraints     |  
++--------------+--------------+------------------------------------+---------------+---------------------+  
+| nutrient_id  |     int      | Unique identifier for the nutrient |       -       |    Primary Key      |  
+| food_id      |     int      | Foreign key referencing the food   |       -       |  References FT (id) |  
+| nutrient_name| varchar(255) | Name of the nutrient               |      255      |                     |  
+| serving_size |    float     | Serving size of the food in grams  |       -       |                     |  
+| amount_per_serving | float | Amount of the nutrient per serving |       -       |                     |  
++--------------+--------------+------------------------------------+---------------+---------------------+  
+  
+# same_meal_members Table (SM)                     
+-----------------------------------------------------------    
+|  Column Name   |  Data Type  |         Description      |    
+-----------------------------------------------------------    
+|  same_meal_id  |     int     |  Unique identifier for the same meal group  |    
+|  user_id       |     int     |  Foreign key referencing the user           |    
+|  created_at    |  datetime  |  Timestamp of when the record was created  |    
+|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |    
+-----------------------------------------------------------    
+  
+# same_meals Table (SM)   
 -----------------------------------------------------------  
 |  Column Name   |  Data Type  |         Description      |  
------------------------------------------------------------  
+-----------------------------------------------------------    
 |  same_meal_id  |     int     |  Unique identifier for the same meal group  |  
-|  user_id       |     int     |  Foreign key referencing the user           |  
-|  created_at    |  datetime  |  Timestamp of when the record was created  |  
+|  meal_name     |  varchar   |  Name of the same meal group                 |   
+|  created_at    |  datetime  |  Timestamp of when the record was created  |   
 |  updated_at    |  datetime  |  Timestamp of when the record was last updated  |  
------------------------------------------------------------  
-
-# same_meals Table (SM) 
------------------------------------------------------------
-|  Column Name   |  Data Type  |         Description      |
------------------------------------------------------------
-|  same_meal_id  |     int     |  Unique identifier for the same meal group  |
-|  meal_name     |  varchar   |  Name of the same meal group                 |
-|  created_at    |  datetime  |  Timestamp of when the record was created  |
-|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |
------------------------------------------------------------      
+-----------------------------------------------------------        
 
