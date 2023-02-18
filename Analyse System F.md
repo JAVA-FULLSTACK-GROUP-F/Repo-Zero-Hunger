@@ -10,11 +10,15 @@
 Consuming the right balance of essential [vitamins, minerals, and other nutrients] to [support] good health and [meet basic nutritional needs], despite limited access to food.
 
 ##  What affects the nutrition intake
-### Food availability
-### Food affordability
-### Food preferences
-### Age and life stage: For example, [Infants, children, pregnant women, and older adults] have different nutrient requirements than [healthy adults].
-### Medical conditions: For example, individuals with celiac [disease] may have [difficulty absorbing nutrients from gluten-containing foods.]
-### Medications:  For example, some antibiotics can interfere with the absorption of certain vitamins and minerals.
-### Lifestyle factors: Alcohol and drug use can interfere with nutrient absorption, while smoking can increase the body's need for certain vitamins and minerals. Stress can also impact nutrient absorption and utilization.
+### 1)Food availability
+### 2)Food affordability
+### 3)Food preferences
+### 4)Age and life stage: 
+For example, [Infants, children, pregnant women, and older adults] have different nutrient requirements than [healthy adults].
+### 5)Medical conditions: 
+For example, individuals with celiac [disease] may have [difficulty absorbing nutrients from gluten-containing foods.]
+### 6)Medications:  
+For example, some antibiotics can interfere with the absorption of certain vitamins and minerals.
+### 7)Lifestyle factors: 
+Alcohol and drug use can interfere with nutrient absorption, while smoking can increase the body's need for certain vitamins and minerals. Stress can also impact nutrient absorption and utilization.
 
