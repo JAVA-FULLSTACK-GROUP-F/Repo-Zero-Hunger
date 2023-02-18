@@ -10,7 +10,9 @@ Doc5_Database Design.md:
 ![NT](https://user-images.githubusercontent.com/124771643/219880972-68a2f181-90a3-42d6-af7f-633a57a91b12.png)
 ![GT](https://user-images.githubusercontent.com/124771643/219880976-db28f088-5be0-42f0-b42b-0c7fdf51a920.png)
 ![AT](https://user-images.githubusercontent.com/124771643/219880980-9a996c2d-7476-4be8-a036-5b7899bd6ce9.png)
-![UT](https://user-images.githubusercontent.com/124771643/219881128-3ecf6939-a27a-4282-94f0-b4ae4e3184da.png)
+![UT](https![SM](https://user-images.githubusercontent.com/124771643/219881435-d4c910b5-9756-4aab-abbf-2813acf1eb3f.png)
+![SMT](https://user-images.githubusercontent.com/124771643/219881436-c69516e4-9caa-46b3-9ae8-373ffe77e6d0.png)
+![SM](https://user-images.githubusercontent.com/124771643/219881450-417cf39d-b524-48b0-8521-2f5d15376c95.png)
 
 
 ## Database Design for Nutritional Monitoring and Tracking System	
@@ -137,5 +139,22 @@ activity_entries text Entries for activities performed during the day
 supplement_entries text Entries for supplements taken during the day
 notes text Additional notes for the day
 
+same_meal_members Table (SM) 
+-----------------------------------------------------------
+|  Column Name   |  Data Type  |         Description      |
+-----------------------------------------------------------
+|  same_meal_id  |     int     |  Unique identifier for the same meal group  |
+|  user_id       |     int     |  Foreign key referencing the user           |
+|  created_at    |  datetime  |  Timestamp of when the record was created  |
+|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |
+-----------------------------------------------------------
 
+same_meals Table (SM) 
+-----------------------------------------------------------
+|  Column Name   |  Data Type  |         Description      |
+-----------------------------------------------------------
+|  same_meal_id  |     int     |  Unique identifier for the same meal group  |
+|  meal_name     |  varchar   |  Name of the same meal group                 |
+|  created_at    |  datetime  |  Timestamp of when the record was created  |
+|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |
 
