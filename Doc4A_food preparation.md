@@ -1,6 +1,8 @@
-Section about food preparation (tag: SAFP ) 
-Every [same dish] only needed to be asked about [preparation's method] to them [once.] (optional because information can be searched by app through Internet?)  
-Because the methods are always the same. But the variable can be edited. Hence, the question at the frontend will be like this: 
+Section about food preparation (tag: SAFP )   
+Every [same dish] only needed to be asked about [preparation's method] to them [once.] (optional because information can be searched by app through Internet?)    
+Because the methods are always the same.  
+But the variable can be edited.   
+Hence, the question at the frontend will be like this:   
   
 Display:  
   
