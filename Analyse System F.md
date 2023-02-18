@@ -35,17 +35,17 @@ For example, consuming vitamin C with iron-rich foods can enhance the absorption
 For example, combining beans and rice can create a complete protein, while pairing vitamin C-rich foods with iron-rich foods can enhance iron absorption.
 
 ##  What affects the [tracking] of food nutrients value?
-* 4)Accuracy of food data
-* 4)Variability in food composition: 
+* 1)Accuracy of food data
+* 2)Variability in food composition: 
 [Growing conditions], [processing], and [cooking methods]. This variability can impact the accuracy of nutrient tracking.
-* 1)Portion sizes
-* 2)User error: 
+* 3)Portion sizes
+* 4)User error: 
 User [forgetting] to record certain foods or misreading nutrition labels.
-* 3)Technology limitations: 
+* 5)Technology limitations: 
 Some nutrient tracking tools may have limitations or inaccuracies
-* 4)Cultural and regional differences: 
+* 6)Cultural and regional differences: 
 [have different food preferences and dietary patterns]
-* 5)Changes in food production: 
+* 7)Changes in food production: 
 new [ingredients or production methods], can impact the accuracy of nutrient tracking.
 
 # Summarization by ChatpGPT
