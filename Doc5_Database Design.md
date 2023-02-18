@@ -1,7 +1,19 @@
 # BY ChatGPT	
 Doc5_Database Design.md:	
+![MT](https://user-images.githubusercontent.com/124771643/219880436-4145cfba-3074-49c3-a3f8-8852caf073d4.png)
+![MDT](https://user-images.githubusercontent.com/124771643/219880470-13879afd-3d3d-4990-b0e7-b0eba090d73f.png)
+![FT](https://user-images.githubusercontent.com/124771643/219880489-77710497-9173-4ece-866f-69e148e701e2.png)
+![MTT](https://user-images.githubusercontent.com/124771643/219881024-3c819667-e2a7-49d0-b0d1-c16e452d519e.png)
+![DT](https://user-images.githubusercontent.com/124771643/219881026-9d34f43c-4675-4c53-967c-6b77154fb7a1.png)
+![RT](https://user-images.githubusercontent.com/124771643/219880968-61fc66b8-2572-4b63-bf5e-527e49f7ecf2.png)
+![ST](https://user-images.githubusercontent.com/124771643/219880970-94a8297a-7515-4d54-9d38-de1d9f9763c6.png)
+![NT](https://user-images.githubusercontent.com/124771643/219880972-68a2f181-90a3-42d6-af7f-633a57a91b12.png)
+![GT](https://user-images.githubusercontent.com/124771643/219880976-db28f088-5be0-42f0-b42b-0c7fdf51a920.png)
+![AT](https://user-images.githubusercontent.com/124771643/219880980-9a996c2d-7476-4be8-a036-5b7899bd6ce9.png)
+![UT](https://user-images.githubusercontent.com/124771643/219881128-3ecf6939-a27a-4282-94f0-b4ae4e3184da.png)
 
-Database Design for Nutritional Monitoring and Tracking System	
+
+## Database Design for Nutritional Monitoring and Tracking System	
 Tables	
 	Users Table (UT)	
 Column Name	Data Type	Description	
@@ -125,7 +137,5 @@ activity_entries text Entries for activities performed during the day
 supplement_entries text Entries for supplements taken during the day
 notes text Additional notes for the day
 
-![MT](https://user-images.githubusercontent.com/124771643/219880436-4145cfba-3074-49c3-a3f8-8852caf073d4.png)
-![MDT](https://user-images.githubusercontent.com/124771643/219880470-13879afd-3d3d-4990-b0e7-b0eba090d73f.png)
-![FT](https://user-images.githubusercontent.com/124771643/219880489-77710497-9173-4ece-866f-69e148e701e2.png)
-![MTT](https://user-images.githubusercontent.com/124771643/219880513-dc2401c9-dd78-4185-8b1e-5edd04d36294.png)
+
+
