@@ -73,17 +73,17 @@ name	varchar(255)	Name of the meal type
 created_at	datetime	Timestamp of when the meal type was added	
 updated_at	datetime	Timestamp of when the meal type was last updated			
 	Meal Type Details Table (MTDT)	
-Column Name	Data Type	Description		
+Column Name	Data Type	Description         
 allergens	text	A comma-separated list of common allergens contained in the meal type, such as "milk, eggs, soy, wheat, nuts, etc."	
 calories	integer	The number of calories in the meal type.	
 price	decimal	The price of the meal type in the local currency.	
 created_at	datetime	The date and time when the meal type was added to the system.	
-updated_at	datetime	The date and time when the meal type was last updated in the system.	
-
-Note: The created_at and updated_at columns are commonly used in database systems to keep track of when a record was created and last updated. They can be useful for auditing and troubleshooting purposes.
-
-Activity Table (AT)
-Column Name Data Type Description
+updated_at	datetime	The date and time when the meal type was last updated in the system.         	
+         
+Note: The created_at and updated_at columns are commonly used in database systems to keep track of when a record was created and last updated. They can be useful for auditing and troubleshooting purposes.         
+         
+Activity Table (AT)         
+Column Name Data Type Description         
 activity_id int Unique identifier for the activity
 user_id int Foreign key referencing the user who performed the activity
 activity_name varchar(255) Name of the activity
@@ -117,44 +117,44 @@ supplement_name varchar(255) Name of the supplement
 dosage float Dosage of the supplement
 frequency varchar(20) Frequency of use (e.g. daily, weekly)
 
-Recipes Table (RT)
-Column Name Data Type Description
-recipe_id int Unique identifier for the recipe
-user_id int Foreign key referencing the user who created the recipe
-recipe_name varchar(255) Name of the recipe
-ingredients text Ingredients of the recipe
-instructions text Instructions for making the recipe
-total_calories float Total calories of the recipe
-total_fat float Total fat of the recipe
-total_protein float Total protein of the recipe
-total_carbohydrates float Total carbohydrates of the recipe
+Recipes Table (RT)         
+Column Name Data Type Description         
+recipe_id int Unique identifier for the recipe         
+user_id int Foreign key referencing the user who created the recipe         
+recipe_name varchar(255) Name of the recipe         
+ingredients text Ingredients of the recipe         
+instructions text Instructions for making the recipe         
+total_calories float Total calories of the recipe         
+total_fat float Total fat of the recipe         
+total_protein float Total protein of the recipe                           
+total_carbohydrates float Total carbohydrates of the recipe         
+         
+Diary Table (DT)         
+Column Name Data Type Description         
+diary_id int Unique identifier for the diary entry         
+user_id int Foreign key referencing the user who made the entry         
+date date Date of the diary entry         
+meal_entries text Entries for meals consumed during the day         
+activity_entries text Entries for activities performed during the day         
+supplement_entries text Entries for supplements taken during the day         
+notes text Additional notes for the day         
+         
+same_meal_members Table (SM)                   
+-----------------------------------------------------------  
+|  Column Name   |  Data Type  |         Description      |  
+-----------------------------------------------------------  
+|  same_meal_id  |     int     |  Unique identifier for the same meal group  |  
+|  user_id       |     int     |  Foreign key referencing the user           |  
+|  created_at    |  datetime  |  Timestamp of when the record was created  |  
+|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |  
+-----------------------------------------------------------  
 
-Diary Table (DT)
-Column Name Data Type Description
-diary_id int Unique identifier for the diary entry
-user_id int Foreign key referencing the user who made the entry
-date date Date of the diary entry
-meal_entries text Entries for meals consumed during the day
-activity_entries text Entries for activities performed during the day
-supplement_entries text Entries for supplements taken during the day
-notes text Additional notes for the day
-
-same_meal_members Table (SM) 
+same_meals Table (SM)   
+-----------------------------------------------------------   
+|  Column Name   |  Data Type  |         Description      |  
 -----------------------------------------------------------
-|  Column Name   |  Data Type  |         Description      |
------------------------------------------------------------
-|  same_meal_id  |     int     |  Unique identifier for the same meal group  |
-|  user_id       |     int     |  Foreign key referencing the user           |
-|  created_at    |  datetime  |  Timestamp of when the record was created  |
-|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |
------------------------------------------------------------
-
-same_meals Table (SM) 
------------------------------------------------------------
-|  Column Name   |  Data Type  |         Description      |
------------------------------------------------------------
-|  same_meal_id  |     int     |  Unique identifier for the same meal group  |
-|  meal_name     |  varchar   |  Name of the same meal group                 |
-|  created_at    |  datetime  |  Timestamp of when the record was created  |
-|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |
+|  same_meal_id  |     int     |  Unique identifier for the same meal group  |         
+|  meal_name     |  varchar   |  Name of the same meal group                 |         
+|  created_at    |  datetime  |  Timestamp of when the record was created  |         
+|  updated_at    |  datetime  |  Timestamp of when the record was last updated  |         
 
