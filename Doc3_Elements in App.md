@@ -3,7 +3,7 @@
 1)Food availability and affordability.  
 2)Preferences  
 3)Composition and preparation of meals  
-4)Dietary restrictions or preferences. 
+4)Dietary restrictions or preferences.   
 5)Cultural and regional differences  
 
 * Medical conditions and medications,Age and life stage.  
