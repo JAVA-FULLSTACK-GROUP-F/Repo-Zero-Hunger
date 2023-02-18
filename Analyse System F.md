@@ -9,7 +9,7 @@
 ##  What is [take enough nutrients], especially for [people who are always hungry and have difficulty getting enough food]?
 Consuming the right balance of essential [vitamins, minerals, and other nutrients] to [support] good health and [meet basic nutritional needs], despite limited access to food.
 
-##  What affects the nutrition intake
+##  What affects the nutrition [intake]
 ### 1)Food availability
 ### 2)Food affordability
 ### 3)Food preferences
@@ -22,3 +22,18 @@ For example, some antibiotics can interfere with the absorption of certain vitam
 ### 7)Lifestyle factors: 
 Alcohol and drug use can interfere with nutrient absorption, while smoking can increase the body's need for certain vitamins and minerals. Stress can also impact nutrient absorption and utilization.
 
+##  What affects the [amount] of nutrition of a meal
+
+##  What affects the [tracking] of food nutrients value?
+### Accuracy of food data
+### Variability in food composition: 
+[Growing conditions], [processing], and [cooking methods]. This variability can impact the accuracy of nutrient tracking.
+### Portion sizes
+### User error: 
+User [forgetting] to record certain foods or misreading nutrition labels.
+
+Technology limitations: Some nutrient tracking tools may have limitations or inaccuracies in the nutrient data they provide. It's important to use reliable and well-tested technology for nutrient tracking.
+
+Cultural and regional differences: Different cultures and regions may have different food preferences and dietary patterns, which can impact the accuracy of nutrient tracking.
+
+Changes in food production: Changes in food production, such as the use of new ingredients or production methods, can impact the accuracy of nutrient tracking.
