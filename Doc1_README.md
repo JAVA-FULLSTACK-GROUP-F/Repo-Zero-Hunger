@@ -20,9 +20,9 @@ If you are struggling to get enough food, there may be resources available to he
 ## 0) Analyse the topic-Zero Hunger, including the meaning & purposes behind Zero Hunger.
 ## 1) Select a title 
 ## 2) Analyse the title including how zero hunger can be solved through it. 
-## 3) Imagine and determine how frontend should look like. 
-## 4) Present to group on how frontend should be looked like.
-## 5) Analyse the elements/objects that should be included, then build checklist about that
+## 3) Analyse the elements/objects that should be included, then build checklist about that [previous is 5)]  
+## 4) Imagine and determine how frontend should look like. [previous is 3)]  
+## 5) Present to group on how frontend should be looked like.[previous is 4)]  
 ## 6) Check & confirm how the elements linked together, build logical-algorithm through it.
 ###  Beware that frontend (user interface) and backend (database queries?) needs to be synchronized. Hence needs to design backend(database system)
 ## 7) Determine what software features to be used.
