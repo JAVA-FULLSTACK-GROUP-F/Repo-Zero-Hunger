@@ -131,12 +131,11 @@ Daily version:
 
 ________________________________________________________________________
 
-Weekly same type physical activities = sum of time length of same type physical activities in daily version   	
-Weekly volume of drinked beverages= sum of volume of drinked beverages in daily version   	
-Weekly volume of eaten sweets/cookies= sum of volume of eaten sweets/cookies in daily version     	
-1 dish of meal= sum of portion of 1 dish per meal eaten by each group of table_member  .  	
-
-____________________________________________________  
-Since weekly version exists, user's input in daily version is optional. Just that daily version provides more accurate data.    	
-If sum of daily version data values != weekly version data value, daily version data values has more priority.    	
+Weekly same type physical activities = sum of time length of same type physical activities in daily version.  
+Weekly volume of drinked beverages= sum of volume of drinked beverages in daily version.  
+Weekly volume of eaten sweets/cookies= sum of volume of eaten sweets/cookies in daily version.  
+1 dish of meal= sum of portion of 1 dish per meal eaten by each group of table_member  
+____________________________________________________    
+Since weekly version exists, user's input in daily version is optional. Just that daily version provides more accurate data.  
+If sum of daily version data values != weekly version data value, daily version data values has more priority.  
 App will notify users that the data values of version...is different.   	
