@@ -1,5 +1,26 @@
 # BY CHATGPT  
 
+-- Create Users table    
+-- Create Meals table  
+-- Create Meal Details table    
+-- Create Meal Type Details table  
+-- Create Supplements table  
+-- Create Recipes table  
+-- Create Diary table  
+-- Create Activity table  
+-- Modify Diary table to include daily and weekly data  
+-- Set default value for is_daily_data to true  
+-- Insert daily data for user 1 on 2023-02-20  
+-- Insert weekly data for user 1 for week ending on 2023-02-20  
+To calculate the weekly data based on the daily data  
+-- Weekly Version Table  
+-- Daily Version Table  
+-- Daily/Weekly Merge Table  
+-- Diet Plan Table  
+-- Diet Plan Meals Table  
+-- Diet Plan Supplements Table  
+-- Diet Plan Recipes Table  
+
 sql  
 Copy code  
 -- Create Users table  
