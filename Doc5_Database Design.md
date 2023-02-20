@@ -13,55 +13,55 @@ CREATE TABLE Users (
   weight FLOAT  
 );
 
--- Create Meals table
-CREATE TABLE Meals (
-  meal_id INT PRIMARY KEY,
-  meal_name VARCHAR(50),
-  user_id INT,
-  FOREIGN KEY (user_id) REFERENCES Users(user_id)
-);
+-- Create Meals table  
+CREATE TABLE Meals (  
+  meal_id INT PRIMARY KEY,  
+  meal_name VARCHAR(50),  
+  user_id INT,  
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)  
+  );  
+  
+-- Create Meal Details table  
+CREATE TABLE Meal_Details (  
+  meal_detail_id INT PRIMARY KEY,  
+  meal_id INT,  
+  recipe_id INT,  
+  portion FLOAT,  
+  FOREIGN KEY (meal_id) REFERENCES Meals(meal_id),  
+  FOREIGN KEY (recipe_id) REFERENCES Recipes(recipe_id)  
+  );
 
--- Create Meal Details table
-CREATE TABLE Meal_Details (
-  meal_detail_id INT PRIMARY KEY,
-  meal_id INT,
-  recipe_id INT,
-  portion FLOAT,
-  FOREIGN KEY (meal_id) REFERENCES Meals(meal_id),
-  FOREIGN KEY (recipe_id) REFERENCES Recipes(recipe_id)
-);
+-- Create Meal Type Details table  
+CREATE TABLE Meal_Type_Details (  
+  meal_type_detail_id INT PRIMARY KEY,  
+  user_id INT,  
+  meal_type VARCHAR(50),  
+  calories INT,  
+  protein FLOAT,  
+  carbs FLOAT,  
+  fat FLOAT,  
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)  
+  );
 
--- Create Meal Type Details table
-CREATE TABLE Meal_Type_Details (
-  meal_type_detail_id INT PRIMARY KEY,
-  user_id INT,
-  meal_type VARCHAR(50),
-  calories INT,
-  protein FLOAT,
-  carbs FLOAT,
-  fat FLOAT,
-  FOREIGN KEY (user_id) REFERENCES Users(user_id)
-);
+-- Create Supplements table  
+CREATE TABLE Supplements (  
+  supplement_id INT PRIMARY KEY,  
+  supplement_name VARCHAR(50),  
+  calories INT,  
+  protein FLOAT,  
+  carbs FLOAT,  
+  fat FLOAT  
+  );
 
--- Create Supplements table
-CREATE TABLE Supplements (
-  supplement_id INT PRIMARY KEY,
-  supplement_name VARCHAR(50),
-  calories INT,
-  protein FLOAT,
-  carbs FLOAT,
-  fat FLOAT
-);
-
--- Create Recipes table
-CREATE TABLE Recipes (
-  recipe_id INT PRIMARY KEY,
-  recipe_name VARCHAR(50),
-  calories INT,
-  protein FLOAT,
-  carbs FLOAT,
-  fat FLOAT
-);
+-- Create Recipes table  
+CREATE TABLE Recipes (  
+  recipe_id INT PRIMARY KEY,  
+  recipe_name VARCHAR(50),  
+  calories INT,  
+  protein FLOAT,  
+  carbs FLOAT,  
+  fat FLOAT  
+  );
 
 -- Create Diary table
 CREATE TABLE Diary (
