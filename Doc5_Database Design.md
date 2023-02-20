@@ -116,8 +116,107 @@ VALUES (1, '2023-02-20', 10000, 250, 10000, 250, false);
 
 
 To calculate the weekly data based on the daily data, we can use a query like this:
+SELECT user_id, SUM(volume) as weekly_water_consumption
+FROM (
+  SELECT user_id, volume, DATE_TRUNC('week', date) as week_start
+  FROM diary
+  WHERE user_id = 1 AND (version = 'weekly' OR version IS NULL)
+    AND category = 'beverage' AND subcategory = 'water'
+  UNION ALL
+  SELECT user_id, volume, DATE_TRUNC('week', date) as week_start
+  FROM diary
+  WHERE user_id = 1 AND version = 'daily'
+    AND category = 'beverage' AND subcategory = 'water'
+) t
+GROUP BY user_id, week_start
+This query uses a subquery to combine the data from the weekly and daily versions of the diary table, then aggregates the data by user and week to calculate the weekly water consumption for user 1.  
+Sure, here are the remaining SQL statements to create the rest of the tables:
 
 sql
 Copy code
--- Calculate weekly water consumption for user 1
-SELECT user_id, DATE_TRUNC
+-- Weekly Version Table
+CREATE TABLE Weekly_Version (
+  weekly_version_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  week_ending_date DATE NOT NULL,
+  weekly_physical_activity_time INT,
+  weekly_beverage_volume INT,
+  weekly_sweets_cookies_volume INT,
+  FOREIGN KEY (user_id) REFERENCES Users (user_id)
+);
+
+-- Daily Version Table
+CREATE TABLE Daily_Version (
+  daily_version_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  date DATE NOT NULL,
+  physical_activity_time INT,
+  beverage_volume INT,
+  sweets_cookies_volume INT,
+  FOREIGN KEY (user_id) REFERENCES Users (user_id)
+);
+
+-- Daily/Weekly Merge Table
+CREATE TABLE Daily_Weekly_Merge (
+  merge_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  date DATE NOT NULL,
+  physical_activity_time INT,
+  beverage_volume INT,
+  sweets_cookies_volume INT,
+  week_ending_date DATE,
+  weekly_physical_activity_time INT,
+  weekly_beverage_volume INT,
+  weekly_sweets_cookies_volume INT,
+  FOREIGN KEY (user_id) REFERENCES Users (user_id),
+  FOREIGN KEY (week_ending_date) REFERENCES Weekly_Version (week_ending_date)
+);
+
+-- Diet Plan Table
+CREATE TABLE Diet_Plan (
+  diet_plan_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  plan_name VARCHAR(255),
+  start_date DATE NOT NULL,
+  end_date DATE NOT NULL,
+  calories_goal INT,
+  carbs_goal INT,
+  protein_goal INT,
+  fat_goal INT,
+  FOREIGN KEY (user_id) REFERENCES Users (user_id)
+);
+
+-- Diet Plan Meals Table
+CREATE TABLE Diet_Plan_Meals (
+  diet_plan_meals_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  diet_plan_id INT NOT NULL,
+  meal_id INT NOT NULL,
+  FOREIGN KEY (diet_plan_id) REFERENCES Diet_Plan (diet_plan_id),
+  FOREIGN KEY (meal_id) REFERENCES Meals (meal_id)
+);
+
+-- Diet Plan Supplements Table
+CREATE TABLE Diet_Plan_Supplements (
+  diet_plan_supplements_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  diet_plan_id INT NOT NULL,
+  supplement_id INT NOT NULL,
+  FOREIGN KEY (diet_plan_id) REFERENCES Diet_Plan (diet_plan_id),
+  FOREIGN KEY (supplement_id) REFERENCES Supplements (supplement_id)
+);
+
+-- Diet Plan Recipes Table
+CREATE TABLE Diet_Plan_Recipes (
+  diet_plan_recipes_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  diet_plan_id INT NOT NULL,
+  recipe_id INT NOT NULL,
+  servings INT NOT NULL,
+  FOREIGN KEY (diet_plan_id) REFERENCES Diet_Plan (diet_plan_id),
+  FOREIGN KEY (recipe_id) REFERENCES Recipes (recipe_id)
+);
+
+
+Note that these tables assume that the user can have multiple diet plans and that each diet plan can have multiple meals, supplements, and recipes associated with it.
+
+The Daily_Weekly_Merge table allows for the daily and weekly data to be merged together, with the weekly data being used to fill in any missing daily data.
+
+Finally, the Diet_Plan, Diet_Plan_Meals, Diet_Plan_Supplements, and Diet_Plan_Recipes tables allow for the creation and management of diet plans. The Diet_Plan_Meals, Diet_Plan_Supplements, and Diet_Plan_Recipes tables allow for the association of specific meals, supplements, and recipes with a given diet plan.
