@@ -6,7 +6,7 @@ Meals today & Cooking method (Raw food types and amount) & Nutrient interactions
 
 ----------------------------------------------------------------------------
 Medical conditions and medications,Age and life stage.  [USER CONDITION]
-** Age, weight, height (short/normal/tall/cm/ft), body physique (little/standard/heavily/very----fat/lean/muscular) 
+** Age, weight, height (short/normal/tall/cm/ft), body physique (little/standard/heavily/very----fat/lean/muscular/thin) 
 ** Genetic condition (optional) 
 
 ----------------------------------------------------------------------------
@@ -81,7 +81,7 @@ Medical conditions and medications,Age and life stage.
 9) Height(short/normal/tall/cm/ft)   
 10) Body physique (little/standard/heavily/very----fat/lean/muscular)  
 11) Genetic condition 
-12)Other   
+12) Other   
 
 ----------------------------------------------------------------------------
 Lifestyle (how often you exercise)	
@@ -111,3 +111,27 @@ Regularly version:
   * Volume: whole/half/1/4 of X  [unit: pieces]  
   * How often eating: X times per X days/weeks/months  (update weekly) 
   * Other by user  
+________________________________________________________________________
+Daily version:  
+1)Drinkings:   
+  * Drinked beverages' types 
+  * Volume of drinked beverage: whole/half/1/4 of  X [unit: tin or (X milli-liter) ] 
+  * Other by user 
+2) Physical activities:   
+  * Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads  
+  * Level/weights of the activity: X of  [unit:kg/pounds]  
+  * Time length per 1 continous activity: X [unit:hours, X minutes ] 
+  * Total time length doing the activity:  [unit:X  hours, Y minutes]  
+  * Other by user 
+3)  Sweets & cookies outside meals 
+  * Types 
+  * Size 
+  * Volume: whole/half/1/4 of X  [unit: pieces]  
+  * Other by user  
+
+________________________________________________________________________
+
+Weekly same type physical activities = sum of time length of same type physical activities in daily version
+Weekly volume of drinked beverages= sum of volume of drinked beverages in daily version
+Weekly volume of eaten sweets/cookies= sum of volume of eaten sweets/cookies in daily version 
+1 dish of meal= sum of portion of 1 dish per meal eaten by each group of table_member.
