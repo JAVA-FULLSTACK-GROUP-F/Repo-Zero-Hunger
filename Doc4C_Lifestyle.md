@@ -1,30 +1,30 @@
-Variables about Lifestyle(tag: VAL )
-Regularly version:
-1)Drinkings:
-
-Drinked beverages' types
-Volume of drinked beverage: whole/half/1/4 of X [unit: tin or (X milli-liter) ]
-How often drinking the beverages (update weekly)
-Other by user
-Physical activities:
-Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads
-Level/weights of the activity: X of [unit:kg/pounds]
-Time length per 1 continous activity: X [unit:hours+ X minutes ]
-Total time length doing the activity: X [unit:hours/day/week/month/year/decade]
-Other by user
-Sweets & cookies outside meals
-Types
-Size
-Volume: whole/half/1/4 of X [unit: pieces]
-How often eating: X times per X days/weeks/months (update weekly)
-Other by user
-Daily version:
-1)Drinkings:
-
-Drinked beverages' types
-Volume of drinked beverage: whole/half/1/4 of X [unit: tin or (X milli-liter) ]
-Other by user
-Physical activities:
+Variables about Lifestyle(tag: VAL )			
+Regularly version:			
+1)Drinkings:			
+			
+Drinked beverages' types  	
+Volume of drinked beverage: whole/half/1/4 of X [unit: tin or (X milli-liter) ]	 		 
+How often drinking the beverages (update weekly)	  		
+Other by user					
+Physical activities:					
+Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads					
+Level/weights of the activity: X of [unit:kg/pounds]							
+Time length per 1 continous activity: X [unit:hours+ X minutes ]					
+Total time length doing the activity: X [unit:hours/day/week/month/year/decade]				
+Other by user		
+Sweets & cookies outside meals		
+Types		
+Size		
+Volume: whole/half/1/4 of X [unit: pieces]		
+How often eating: X times per X days/weeks/months (update weekly)		
+Other by user		
+Daily version:		
+1)Drinkings:		
+		
+Drinked beverages' types		
+Volume of drinked beverage: whole/half/1/4 of X [unit: tin or (X milli-liter) ]		
+Other by user		
+Physical activities:		
 Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads
 Level/weights of the activity: X of [unit:kg/pounds]
 Time length per 1 continous activity: X [unit:hours, X minutes ]
