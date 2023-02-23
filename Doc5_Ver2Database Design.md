@@ -16,13 +16,14 @@ Beverage Table - This table would store information about each beverage consumed
   
 Sweet/Cookie Table - This table would store information about each sweet or dessert consumed, including its name, size, and ingredients.  
 
-MedicalConditions Table - This table would store information about any medical conditions or allergies that a user has, as well as any medications they are taking.  
-condition_id (primary key)
-user_id (foreign key)
-condition_name
-severity (mild, moderate, severe)
-medication (optional)
-notes (optional)
+MedicalConditions Table - This table would store information about any medical conditions or allergies that a user has, as well as any medications they are taking.   
+condition_id (primary key)  
+user_id (foreign key)  
+condition_name  
+severity (mild, moderate, severe)  
+medication (optional)  
+notes (optional)  
+  
 NutrientIntake Table - This table would store information about the nutrient intake for each meal, including the user who consumed the meal, the date and time of the meal, and the amounts of each nutrient consumed.  
 
 UserActivity Table - This table would store information about the physical activities performed by each user, including the type, intensity level, and duration of each activity.  
@@ -35,4 +36,13 @@ DailyInput Table - This table would store the user's daily input, including the 
 
 WeeklySummary Table - This table would store the user's weekly summary, including the week number, the total time spent on each physical activity, the total volume of each beverage consumed, the total volume of each sweet/cookie consumed, and the total portion size of each meal consumed.  
 
-UserNotification Table - This table would store the notifications that the app sends to the user regarding any discrepancies between the daily input and weekly summary data values. It would include the date, the notification message, and a flag indicating whether the user has acknowledged the notification.  
+UserNotification Table - This table would store the notifications that the app sends to the user regarding any discrepancies between the daily input and weekly summary data values. It would include the date, the notification message, and a flag indicating whether the user has acknowledged the notification.    
+  
+build table considering that by knowing the conditions and activities of user, app analyse that and give advise about how food/nutrients should be intake by ysers
+Based on the information you provided, I would suggest adding the following table to the database:  
+
+NutrientAdvice: This table would store information about the recommended nutrient intake for each user, based on their medical conditions and physical activities. It would include fields such as the user ID, the date, the recommended calorie intake, and recommended daily amounts of each nutrient (e.g. protein, carbohydrates, fats, vitamins, minerals). The table could also include additional fields for tracking the user's progress towards meeting these recommendations over time.  
+
+This table would be updated based on the user's input and any changes to their medical conditions or physical activities. The app could then use this information to provide personalized nutrition advice to the user, including recommendations for foods that are high in the nutrients they need and suggestions for meals and recipes that meet their specific dietary needs.  
+
+By integrating this table into the app, users would have access to tailored nutrition advice that takes into account their unique health needs and lifestyle habits. This could help them to make more informed food choices and achieve their health and wellness goals more effectively.    
