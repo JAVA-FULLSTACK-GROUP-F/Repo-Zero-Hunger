@@ -84,15 +84,15 @@ CREATE TABLE Recipes (
   fat FLOAT  
   );
 
--- Create Diary table
-CREATE TABLE Diary (
-  diary_id INT PRIMARY KEY,
-  user_id INT,
-  date DATE,
-  water INT,
-  sweets INT,
-  FOREIGN KEY (user_id) REFERENCES Users(user_id)
-);
+-- Create Diary table  
+CREATE TABLE Diary (  
+  diary_id INT PRIMARY KEY,  
+  user_id INT,  
+  date DATE,  
+  water INT,  
+  sweets INT,  
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)  
+);  
 
 -- Create Activity table
 CREATE TABLE Activity (
