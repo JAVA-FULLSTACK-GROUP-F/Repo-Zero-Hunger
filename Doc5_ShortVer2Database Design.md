@@ -8,12 +8,14 @@ weight (float)
 height (float)  
 medical_conditions_id (integer, foreign key)  
 ...  
+  
 Medical Conditions Table:  
   
 medical_condition_id (integer, primary key)  
 name (string)  
 description (text)  
 ...  
+  
 Activities Table:  
 
 activity_id (integer, primary key)  
@@ -21,6 +23,7 @@ name (string)
 type (string)  
 intensity_level (integer)  
 ...  
+  
 Foods Table:  
   
 food_id (integer, primary key)  
@@ -31,12 +34,14 @@ protein (float)
 carbohydrates (float)  
 fats (float)   
 ...  
+  
 Recipes Table:   
 
 recipe_id (integer, primary key)  
 name (string)  
 preparation_instructions (text)  
 ...  
+  
 Recipe Ingredients Table:  
 
 recipe_ingredient_id (integer, primary key)  
@@ -44,6 +49,7 @@ recipe_id (integer, foreign key)
 food_id (integer, foreign key)  
 quantity (float)  
 ...  
+  
 Beverages Table:  
 
 beverage_id (integer, primary key)  
@@ -51,6 +57,7 @@ name (string)
 volume (float)    
 calories (float)  
 ...   
+  
 Sweets Table:  
   
 sweet_id (integer, primary key)  
@@ -58,12 +65,14 @@ name (string)
 size (string)   
 calories (float)  
 ...  
+  
 User Medical Conditions Table:  
   
 user_medical_condition_id (integer, primary key)  
 user_id (integer, foreign key)  
 medical_condition_id (integer, foreign key)   
 ...   
+  
 Nutrient Intake Table:  
   
 nutrient_intake_id (integer, primary key)  
@@ -72,6 +81,7 @@ meal_id (integer, foreign key)
 nutrient_id (integer, foreign key)  
 quantity (float)   
 ...  
+  
 User Activities Table:  
   
 user_activity_id (integer, primary key)  
@@ -80,6 +90,7 @@ activity_id (integer, foreign key)
 date (date)  
 duration (float)  
 ...  
+  
 User Beverages Table:  
   
 user_beverage_id (integer, primary key)  
@@ -88,6 +99,7 @@ beverage_id (integer, foreign key)
 date (date)  
 volume (float)  
 ...  
+  
 User Sweets Table:  
   
 user_sweet_id (integer, primary key)  
@@ -96,12 +108,14 @@ sweet_id (integer, foreign key)
 date (date)  
 quantity (float)  
 ...  
+  
 Meal Table:  
    
 meal_id (integer, primary key)  
 name (string)   
 portion_size (float)  
 ...  
+  
 Food Preparation Table:  
   
 food_preparation_id (integer, primary key)  
@@ -109,6 +123,7 @@ food_id (integer, foreign key)
 cooking_method (string)  
 seasonings_or_sauces (text)  
 ...  
+  
 Daily Input Table:   
   
 daily_input_id (integer, primary key)  
@@ -123,6 +138,7 @@ sweet_quantity (float)
 meal_id (integer, foreign key)  
 meal_portion_size (float)  
 ...  
+  
 Weekly Summary Table:  
   
 weekly_summary_id (integer, primary key)  
@@ -133,6 +149,7 @@ beverage_volume_total (float)
 sweet_quantity_total (float)  
 meal_portion_size_total (float)  
 ...  
+  
 User Notification Table:  
 
 user_notification_id (integer, primary key)  
