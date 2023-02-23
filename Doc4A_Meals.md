@@ -49,4 +49,60 @@ So, the food itself can be categorized as:
 3) Portion: 1, 1/2, 1/4 of X [unit: dish/plate/bowl]  
 4) How long the dish is cooked for each style 
 5) To be filled by user       
+    
+    
+    BY GPT:
+CREATE TABLE Meals (  
+meal_id INT PRIMARY KEY,  
+meal_date DATE,  
+meal_type VARCHAR(50),  
+meal_weight FLOAT,  
+ingredient_type VARCHAR(50),  
+ingredient_weight FLOAT,  
+number_of_people INT,  
+portion FLOAT  
+); 
   
+CREATE TABLE Food_Preparation (  
+food_id INT PRIMARY KEY,  
+food_type VARCHAR(50),  
+preparation_method VARCHAR(50),  
+cooked_time FLOAT  
+);  
+  
+CREATE TABLE Individuals (  
+individual_id INT PRIMARY KEY,   
+meal_id INT,    
+name VARCHAR(50),  
+nutrient_intake VARCHAR(50),  
+nutrient_interactions VARCHAR(50),   
+FOREIGN KEY (meal_id) REFERENCES Meals(meal_id)  
+);  
+  This creates three tables:  
+  
+Meals: This table contains information about the meals,   
+including their unique ID (meal_id), the date they were eaten (meal_date),  
+the type of meal (meal_type),  
+the total weight of the meal (meal_weight),  
+the type of ingredient (ingredient_type),  
+the weight of the ingredient (ingredient_weight),  
+the number of people who ate the meal (number_of_people),  
+and the portion size (portion).  
+
+Food_Preparation:  
+This table contains information about the different types of food and their preparation methods,  
+including their unique ID (food_id),  
+the type of food (food_type),  
+the preparation method (preparation_method),   
+and the cooking time (cooked_time).      
+  
+Individuals:  
+This table contains information about the individuals who ate the meal,  
+including their unique ID (individual_id),  
+the ID of the meal they ate (meal_id),  
+their name (name),  
+their nutrient intake (nutrient_intake),  
+and any nutrient interactions they may have experienced (nutrient_interactions).  
+The meal_id column is a foreign key that references the meal_id column in the Meals table.  
+
+![MEALS](https://user-images.githubusercontent.com/124771643/220807910-edcc6aa6-57c7-4ef6-956b-c830ef85c265.png)
