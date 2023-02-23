@@ -28,15 +28,19 @@ Meals today & Cooking method (Raw food types and amount) & Nutrient interactions
 *	Weight of ingredients	
 *	For how many people? (To be reference of weights of food & ingredients PER person)	
 *	Portion of every people take 
-*	Other   
-
+*	To be filled by user  
+ 
 ## Section about who eats ( tag: SAWE)
 One family has different individuals. But individuals are in a group (family).  
 1 meal for 1 family = 1 meal for many individuals
 Hence, the app should know the nutrients intake of every people, by knowing  [meal of 1 family]
 ### Variables of individual/who eats:
 * Members of the meal (who eats the meals)
+Result:
+Amount and types of nutrients intake by each person
+Interactions among nutrients
 
+*Many individuals may belong to 1 unit of family. Hence, there may be different accounts for the same meal. Synchronisation is needed for this.
 ## Section about food preparation (tag: SAFP )
 ### Every [same dish] only needed to be asked about [preparation's method] to them [once.] (optional because information can be searched by app through Internet?)	
 Because the methods are always the same.	
@@ -58,9 +62,8 @@ So, the food itself can be categorized as:
 1) Cooking style: grill, steam, bake  
 2) Raw main ingredient:chicken, insects, cow  
 3) Portion: 1, 1/2, 1/4 of X [unit: dish/plate/bowl]
-4) Other: User's clarification  
-5) How long the dish is cooked for each style 
-6) Other by user     
+4) To be filled by user (optional)  
+5) How long the dish is cooked for each style    
   
 ----------------------------------------------------------------------------
 Medical conditions and medications,Age and life stage.  
@@ -81,7 +84,7 @@ Medical conditions and medications,Age and life stage.
 9) Height(short/normal/tall/cm/ft)   
 10) Body physique (little/standard/heavily/very----fat/lean/muscular)  
 11) Genetic condition 
-12) Other   
+12) To be filled by user (optional)
 
 ----------------------------------------------------------------------------
 Lifestyle (how often you exercise)	
@@ -98,36 +101,36 @@ Regularly version:
   * Drinked beverages' types 
   * Volume of drinked beverage: whole/half/1/4 of  X [unit: tin or (X milli-liter) ] 
   * How often drinking the beverages (update weekly) 
-  * Other by user 
+  * To be filled by user (optional)
 2) Physical activities:   
   * Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads  
   * Level/weights of the activity: X of  [unit:kg/pounds]  
   * Time length per 1 continous activity: X [unit:hours+ X minutes ] 
   * Total time length doing the activity: X  [unit:hours/day/week/month/year/decade]  
-  * Other by user 
+  * To be filled by user (optional)
 3)  Sweets & cookies outside meals 
   * Types 
   * Size 
   * Volume: whole/half/1/4 of X  [unit: pieces]  
   * How often eating: X times per X days/weeks/months  (update weekly) 
-  * Other by user  
+  * To be filled by user (optional)
 ________________________________________________________________________
 Daily version:  
 1)Drinkings:   
   * Drinked beverages' types 
   * Volume of drinked beverage: whole/half/1/4 of  X [unit: tin or (X milli-liter) ] 
-  * Other by user 
+  * To be filled by user (optional)
 2) Physical activities:   
   * Types of physical activities: Yoga/Exercise:back-muscle...abs...leg /carry loads  
   * Level/weights of the activity: X of  [unit:kg/pounds]  
   * Time length per 1 continous activity: X [unit:hours, X minutes ] 
   * Total time length doing the activity:  [unit:X  hours, Y minutes]  
-  * Other by user 
+  * To be filled by user (optional)
 3)  Sweets & cookies outside meals 
   * Types 
   * Size 
   * Volume: whole/half/1/4 of X  [unit: pieces]  
-  * Other by user  
+  * To be filled by user (optional)  
 
 ________________________________________________________________________
 
