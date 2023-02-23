@@ -20,9 +20,7 @@ To calculate the weekly data based on the daily data
 -- Diet Plan Meals Table  
 -- Diet Plan Supplements Table  
 -- Diet Plan Recipes Table  
-
-sql  
-Copy code  
+ 
 -- Create Users table  
 CREATE TABLE Users (  
   user_id INT PRIMARY KEY,  
@@ -105,8 +103,7 @@ CREATE TABLE Activity (
   
 Assuming that we want to use the daily data as the primary data source, but the weekly data can be used to fill in the gaps where the daily data is missing, we can modify the Diary table to include both daily and weekly data, and add a flag to indicate which one is being used:  
   
-sql  
-Copy code  
+
 -- Modify Diary table to include daily and weekly data  
 ALTER TABLE Diary  
 ADD daily_water INT,  
@@ -124,8 +121,7 @@ ALTER COLUMN is_daily_data SET DEFAULT true;
   
 To insert data into the Diary table, we can set the is_daily_data flag to true for daily data, and false for weekly data:  
   
-sql  
-Copy code  
+
 -- Insert daily data for user 1 on 2023-02-20  
 INSERT INTO Diary (user_id, date, water, sweets, daily_water, daily_sweets, is_daily_data)  
 VALUES (1, '2023-02-20', 1500, 50, 1500, 50, true);  
@@ -151,8 +147,7 @@ GROUP BY user_id, week_start
 This query uses a subquery to combine the data from the weekly and daily versions of the diary table, then aggregates the data by user and week to calculate the weekly water consumption for user 1.  
 Sure, here are the remaining SQL statements to create the rest of the tables:  
   
-sql  
-Copy code  
+
 -- Weekly Version Table  
 CREATE TABLE Weekly_Version (  
   weekly_version_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
