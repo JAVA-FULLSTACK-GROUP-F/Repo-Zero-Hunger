@@ -1,18 +1,23 @@
 Non-Public-View Interface Description:  
-token is injected.  (action to allow users access app)
-load-balancing (to simultaneously handle lots of users)   
-ip-tracking (to prevent hacking)  
+token is injected.  ( action to allow users access app )
+load-balancing ( to simultaneously handle lots of users )   
+ip or mac address tracking ( to prevent hacking )  
 
-Public-View Interface Description (html settings):  
+Public-View Interface Description ( html settings ):  
 page 0: Wallpaper:  
 * First page opened when the app is opened.    
 * Purely to make app looks cool.   
 
 page 1:  
 * First page occur after Wallpaper   
-* Allow users login. (By entering somethings to prove their identity)   
-*   Method 1: 
-*   *User just click to link Internet (Google/Microsoft....) account with the app itself.  
-*   Method 2:  
-*   *User enters password (allow passowrd bar to be auto-filled)  
-*   *also enters account name or   
+* Allow users login. ( By entering somethings to prove their identity . After users login, a simple quest to users to increase security ).  
+ALSO , ip or mac address is checked and ask users to check / validate the login if the ip or mac is different than previous login's address .     
+   Method 1: 
+   * User just click to link Internet ( Google / Microsoft .... ) account with the app itself .  
+   
+   Method 2:  
+   * User enters password (allow passowrd to be auto-filled )  
+   * also enters string type input ( allow the string input to be auto-filled )
+   * or click pictures to authenticate identity   
+* Allow users to roughly experience the app without login (less features shown hence less accuracy in result, or data are auto-filled and result is shown quickly)  
+* Allows users to click to redirect to register ( sign up ) page
