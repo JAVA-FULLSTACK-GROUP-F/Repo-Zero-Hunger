@@ -1,7 +1,7 @@
 Non-Public-View Interface Description:  
-token is injected.  ( action to allow users access app )
-load-balancing ( to simultaneously handle lots of users )   
-ip or mac address tracking ( to prevent hacking )  
+* Token is injected.  ( action to allow users access app )
+* Load-balancing ( to simultaneously handle lots of users )   
+* ip or mac address tracking ( to prevent hacking )  
 
 Public-View Interface Description ( html settings ):  
 page 0: Wallpaper:  
@@ -20,4 +20,7 @@ ALSO , ip or mac address is checked and ask users to check / validate the login 
    * also enters string type input ( allow the string input to be auto-filled )
    * or click pictures to authenticate identity   
 * Allow users to roughly experience the app without login (less features shown hence less accuracy in result, or data are auto-filled and result is shown quickly)  
-* Allows users to click to redirect to register ( sign up ) page
+* Allows users to click to redirect to register ( sign up ) page  
+* Logo is placed on upper part of app's page.  
+* If possible , a single-line bar that shows moving text such as interesting trivia is place on very top of app page .  
+* 
