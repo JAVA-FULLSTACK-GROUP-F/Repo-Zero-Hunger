@@ -1,6 +1,6 @@
 The combined list of database tables would include:  
 
-User Table - This table would store information about each user, such as their name, email address, date of birth, weight, height, and any medical conditions they have.  
+User Table - This table would store information about each user, such as their name, email address, password, age now, date of birth and phone no.  
 
 Meal Table - This table would store information about each meal, including the date and time it was consumed, the user who consumed it, and any notes about the meal (such as where it was consumed or who prepared it).  
 
@@ -21,7 +21,10 @@ condition_id (primary key)
 user_id (foreign key)  
 condition_name  
 severity (mild, moderate, severe)  
-medication (optional)  
+medication (optional)
+weight
+height
+body physique
 notes (optional)  
   
 NutrientIntake Table - This table would store information about the nutrient intake for each meal, including the user who consumed the meal, the date and time of the meal, and the amounts of each nutrient consumed.  
