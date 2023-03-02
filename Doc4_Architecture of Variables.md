@@ -50,7 +50,7 @@ Hence, the question at the frontend will be like this:
 Display:	
 *	P1:(First time open):	Nice to meet you!(then Next Line= NL) I'm Maria the app assistant	(then Next page= NP)	
 **	Make user [tap] the screen to continue [to next page]. For example:	a part of screen [lights up repetitively]. 
-*	P2:Maria hopes to ensure your healthiness as accurate as possible (NL) So Maria prepared this section to ensure that Maria understand more about your daily nutrients intake (NP)	 
+*	P2:Maria hopes to ensure your healthiness as accurate as possible (NL) So Maria prepared this section to ensure that Maria understand more about your nutrients intake (NP)	 
 *	P3: You just need to do ONCE! You may UPDATE this by clicking THIS... (enter instruction/skip instruction)  
 *	P4:	(User enter information, app search the database/internet to obtain the nutriton value) 
   
@@ -96,7 +96,7 @@ Lifestyle (how often you exercise)
 For physical activities, the level of it might be different daily.  
 Hence, the app might needs to have versions of Daily vs Regularly   
 ## Variables about Lifestyle(tag: VAL ) 
-Regularly version:  
+Regularly / weekly version:  
 1)Drinkings:  
   * Drinked beverages' types 
   * Volume of drinked beverage: whole/half/1/4 of  X [unit: tin or (X milli-liter) ] 
@@ -108,7 +108,7 @@ Regularly version:
   * Time length per 1 continous activity: X [unit:hours+ X minutes ] 
   * Total time length doing the activity: X  [unit:hours/day/week/month/year/decade]  
   * To be filled by user (optional)
-3)  Sweets & cookies outside meals 
+3)  Sweets & snacks outside meals 
   * Types 
   * Size 
   * Volume: whole/half/1/4 of X  [unit: pieces]  
@@ -126,7 +126,7 @@ Daily version:
   * Time length per 1 continous activity: X [unit:hours, X minutes ] 
   * Total time length doing the activity:  [unit:X  hours, Y minutes]  
   * To be filled by user (optional)
-3)  Sweets & cookies outside meals 
+3)  Sweets & snacks outside meals 
   * Types 
   * Size 
   * Volume: whole/half/1/4 of X  [unit: pieces]  
@@ -140,5 +140,5 @@ Weekly volume of eaten sweets/cookies= sum of volume of eaten sweets/cookies in 
 1 dish of meal= sum of portion of 1 dish per meal eaten by each group of table_member  
 ____________________________________________________    
 Since weekly version exists, user's input in daily version is optional. Just that daily version provides more accurate data.  
-If sum of daily version data values != weekly version data value, daily version data values has more priority.  
-App will notify users that the data values of version...is different.   	
+If [sum of daily version's data values] != [weekly version's data value], [daily version's data values] has higher priority.  
+App will notify users that the data values of betwen two versions is different.   	
