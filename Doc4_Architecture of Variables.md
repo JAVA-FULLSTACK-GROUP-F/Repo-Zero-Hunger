@@ -67,15 +67,17 @@ So, the food itself can be categorized as:
   
 ----------------------------------------------------------------------------
 Medical conditions and medications,Age and life stage.  
-** Age, weight, height (short/normal/tall/cm/ft), body physique (little/standard/heavily/very----fat/lean/muscular)  
+** Age, weight, height (short/normal/tall/cm/ft), body physique ([little/standard/heavily/very]----[fat/lean/muscular])  
 ** Genetic condition (optional)    
 
-##  Section about medical confitions, medications, age, life stage (User condition)( Tag: SAUC )    
-## Variables about user's condition (tag: VAUC )  
-1) Birth time=(age+life stage): Enter once, update every year  
-2) Medicines/medical treatment taking  
-  * Amount of medicine, time length, type of treatment    
-4) Diseases: 
+##  Section about medical conditions, medical treatment , age, life stage (User condition)( Tag: SAUC )    
+## Variables about users' medical condition (tag: VAUC )  
+1) Birth Date=(age+life stage ): Enter once, update every year 
+2) Age Now ( Update every year )
+3) Life stage ( infant , child , .... ) 
+4) Medicines / medical treatment taking  
+  * Amount of medicine , time length, type of treatment    
+5) Diseases: 
   * Types: Sleeping problem...  
   * Level: X times per X  [unit: days/weeks/months ] 
 6) Menopause? 
@@ -132,7 +134,16 @@ Daily version:
   * Volume: whole/half/1/4 of X  [unit: pieces]  
   * To be filled by user (optional)  
 
-________________________________________________________________________
+________________________________________________________________________  
+Section about User's ACCOUNT Profile ( FOR ACCOUNT LOGIN & REGISTRATION & As secured PROFILE ) (SAAP)
+1) account name  
+2) account password  
+3) email address  
+4) phone number  
+5) 2nd phone number ( optional for user to input )  
+6) Meal members ( let users choose 0 or more accounts as members who dine together )  
+7) Current region ( confirm ip / mac address for anti-hacking )
+ _______________________________________________________________________  
 
 Weekly same type physical activities = sum of time length of same type physical activities in daily version.  
 Weekly volume of drinked beverages= sum of volume of drinked beverages in daily version.  
@@ -142,3 +153,11 @@ ____________________________________________________
 Since weekly version exists, user's input in daily version is optional. Just that daily version provides more accurate data.  
 If [sum of daily version's data values] != [weekly version's data value], [daily version's data values] has higher priority.  
 App will notify users that the data values of betwen two versions is different.   	
+
+( OPTIONAL FIELDS )  
+1) DAILY VERSIONS' DATA  
+2) PREPARE FOODS' METHOD
+3) MEDICAL CONDITIONS & treatments
+4) Snacks & Sweets outside meals  
+
+USERS ALLOWED TO EDIT THEIR DATA / PROFILE INCLUDING PASSWORD AFTER authentication . Edit in profile could affect the status of the other accounts who dine together so that  nutrients intake per account in the same group is updated automatically . 
